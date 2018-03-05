@@ -19,7 +19,7 @@ At least the fist function (Add House) has to be implemented perfectly from ever
 
 ![](screenshoots/add.jpg)
 
-It should be with languages as inline formset where languages can be added/removed in the list.
+It should be with tags as inline formset where tags can be added/removed in the list.
 
 ![](screenshoots/tag.jpg)
 
@@ -63,7 +63,7 @@ See Operation
 
 ### 6. Pagination
 
-![](screenshoots/delete.jpg)
+![](screenshoots/pagination.png)
 
 ### 7. Batch Delete
 
