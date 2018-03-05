@@ -4,7 +4,7 @@
 
 This test is for a simple Django CRUD views to add, edit and display Houses.
 
-UI mockup is in [crud-test.html](crud-test.html).
+UI mockup is in [mock.html](house/templates/list.html).
 
 Just implement as much functionality as you can in a time-box of 2 hours focusing fist on quality rather than quantity.
 
@@ -17,11 +17,11 @@ At least the fist function (Add House) has to be implemented perfectly from ever
 
 ### 1. Add House view
 
-![](https://www.evernote.com/l/AHR6kVOimNhEAptuqzsASeKXsCVHHXON5VwB/image.png)
+![](screenshoots/add.jpg)
 
 It should be with languages as inline formset where languages can be added/removed in the list.
 
-![](https://www.evernote.com/l/AHSY8s1byANBk7YjdpsjcLT9dkai28MYDcwB/image.png)
+![](screenshoots/tag.jpg)
 
 Fields:
 
@@ -47,27 +47,27 @@ Fields:
 
 ### 2. House List view
 
-![](https://www.evernote.com/l/AHRlRb8RWsxI4ZfsCMdDawIptRNdWTCOtD0B/image.png)
+![](screenshoots/list.jpg)
 
 ### 3. Edit House view
 
-Same as add
+See Operation, same as add
 
 ### 4. House Detail view
 
-![](https://www.evernote.com/l/AHSPFjRgvBROzamFG2_cvifetmFCZ-6CTgoB/image.png)
+![](screenshoots/detail.jpg)
 
 ### 5. Delete House
 
-![](https://www.evernote.com/l/AHTpOW13eelOX44ZWOaG8psPjLFeGKvKUvYB/image.png)
+See Operation
 
 ### 6. Pagination
 
-![](https://www.evernote.com/l/AHQPkBVV1X5DaaiUWL0TaQTHeU6DyIzbuqsB/image.png)
+![](screenshoots/delete.jpg)
 
 ### 7. Batch Delete
 
-![](https://www.evernote.com/l/AHSsX1ZWe5hC2piuYM7Yk5rQJGBkwTujGNcB/image.png)
+![](screenshoots/batch.jpg)
 
 ## Project setup
 
