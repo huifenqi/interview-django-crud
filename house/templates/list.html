@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>House CRUD Test</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+        rel="stylesheet" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css"
+        rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><span>CRM</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Houses</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="breadcrumb">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="active">Houses</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="btn btn-primary"><i class="fa fa-plus fa-fw"></i>Add House</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+                            <thead>
+                                <tr class="active">
+                                    <th>Choose</th>
+                                    <th>Operation</th>
+                                    <th>Community</th>
+                                    <th>Room Count</th>
+                                    <th>Phone Number</th>
+                                    <th>Tags</th>
+                                    <th>Price</th>
+                                    <th>Date</th>
+                                    <th>Available</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox">
+                                    </td>
+                                    <td>
+                                        <a href="# ">Edit</a>|
+                                        <a href="# ">Delete</a>
+                                    </td>
+                                    <td>
+                                        <a href="#details">融泽嘉园</a>
+                                    </td>
+                                    <td>2</td>
+                                    <td>13114720000</td>
+                                    <td>近地铁、支持月付</td>
+                                    <td>2000 元/月</td>
+                                    <td>2018-03-05</td>
+                                    <td>是</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox">
+                                    </td>
+                                    <td>
+                                        <a href="# ">Edit</a>|
+                                        <a href="# ">Delete</a>
+                                    </td>
+                                    <td>
+                                        <a href="#details">上地嘉园</a>
+                                    </td>
+                                    <td>3</td>
+                                    <td>13114720001</td>
+                                    <td>近地铁</td>
+                                    <td>3000 元/月</td>
+                                    <td>2018-03-04</td>
+                                    <td>是</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox">
+                                    </td>
+                                    <td>
+                                        <a href="# ">Edit</a>|
+                                        <a href="# ">Delete</a>
+                                    </td>
+                                    <td>
+                                        <a href="#details">清秀阁</a>
+                                    </td>
+                                    <td>1</td>
+                                    <td>13114720002</td>
+                                    <td>支持月付</td>
+                                    <td>4000 元/月</td>
+                                    <td>2018-03-03</td>
+                                    <td>否</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 ">
+                        <input type="checkbox"> Select All
+                        <a class="btn btn-primary pull-right "><i class="fa fa-remove fa-fw "></i>Delete</a>
+                    </div>
+                    <div class="col-md-9 ">
+                        <ul class="pagination pull-right ">
+                            <li>
+                                <a href="# ">Prev</a>
+                            </li>
+                            <li>
+                                <a href="# ">1</a>
+                            </li>
+                            <li>
+                                <a href="# ">2</a>
+                            </li>
+                            <li>
+                                <a href="# ">3</a>
+                            </li>
+                            <li>
+                                <a href="# ">4</a>
+                            </li>
+                            <li>
+                                <a href="# ">5</a>
+                            </li>
+                            <li>
+                                <a href="# ">Next</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <ul class="breadcrumb ">
+                            <li>
+                                <a href="# ">Home</a>
+                            </li>
+                            <li>
+                                <a href="# ">Houses</a>
+                            </li>
+                            <li class="active ">Add House</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <form class="form-horizontal " role="form ">
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="inputEmail3 " class="control-label ">Community</label>
+                                </div>
+                                <div class="col-sm-10 ">
+                                    <input type="text " class="form-control " id="community" placeholder="融泽嘉园">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="gender " class="control-label ">Room Count</label>
+                                </div>
+                                <div class="col-sm-10 ">
+                                    <input type="text " class="form-control " id="room-count" placeholder="1 ">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="card " class="control-label ">Phone Number</label>
+                                </div>
+                                <div class="col-sm-10 ">
+                                    <input type="text " class="form-control " id="phone-number" placeholder="13000000000">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="languages " class="control-label ">Tags</label>
+                                </div>
+                                <div class="col-sm-10">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="tags" placeholder="近地铁">
+                                        <span class="input-group-btn">
+                                            <button class="btn">
+                                                <i class="fa fa-plus fa-fw"></i>Add</button>
+                                        </span>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="tags" placeholder="支持月付">
+                                        <span class="input-group-btn">
+                                            <button class="btn">
+                                                <i class="fa fa-remove fa-fw"></i>Remove</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="card " class="control-label ">Price</label>
+                                </div>
+                                <div class="col-sm-10 ">
+                                    <input type="text " class="form-control " id="price" placeholder="1000">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="date " class="control-label ">Date</label>
+                                </div>
+                                <div class="col-sm-10 ">
+                                    <input type="text " class="form-control " id="date" placeholder="2018-01-01 ">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="pro " class="control-label ">Available</label>
+                                </div>
+                                <div class="col-sm-10 ">
+                                    <input type="radio" id="available" value="Y">
+                                    <label>Yes</label>
+                                    <input type="radio" id="available" value="N">
+                                    <label>No</label>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-offset-2 col-sm-10 ">
+                                    <button type="submit " class="btn btn-default ">
+                                        <i class="fa fa-save fa-fw "></i>Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section ">
+            <div class="container ">
+                <div class="row ">
+                    <a name="details"></a>
+                    <div class="col-md-12 ">
+                        <ul class="breadcrumb ">
+                            <li>
+                                <a href="# ">Home</a>
+                            </li>
+                            <li>
+                                <a href="# ">Houses</a>
+                            </li>
+                            <li class="active ">融泽嘉园</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <form class="form-horizontal " role="form ">
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="inputEmail3 " class="control-label ">Community</label>
+                                </div>
+                                <div class="col-sm-10 ">融泽嘉园</div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="gender " class="control-label ">Room Count</label>
+                                </div>
+                                <div class="col-sm-10 ">2</div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="languages " class="control-label ">Phone Number</label>
+                                </div>
+                                <div class="col-sm-10 ">13114720000</div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="card " class="control-label ">Tags</label>
+                                </div>
+                                <div class="col-sm-10 ">近地铁、支持月付</div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="date " class="control-label ">Price</label>
+                                </div>
+                                <div class="col-sm-10 ">2000 元/月</div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="date " class="control-label ">Date</label>
+                                </div>
+                                <div class="col-sm-10 ">2018-03-05</div>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-sm-2 ">
+                                    <label for="pro " class="control-label ">Available</label>
+                                </div>
+                                <div class="col-sm-10 ">是</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
