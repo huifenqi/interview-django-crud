@@ -4,7 +4,7 @@
 
 This test is for a simple Django CRUD views to add, edit and display Houses.
 
-UI mockup is in [mock.html](house/templates/list.html).
+UI mockup is in [house/templates/list.html](house/templates/list.html).
 
 Just implement as much functionality as you can in a time-box of 2 hours focusing fist on quality rather than quantity.
 
